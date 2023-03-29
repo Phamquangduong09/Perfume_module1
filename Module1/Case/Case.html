@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodeGym Store</title>
+    <link rel="stylesheet" href="case.css">
+    <script src="sanpham.js"></script>
+
+</head>
+<body onload="product()">
+<span><h1 id="background" align="center">CODE GYM STORE</h1></span>
+<hr>
+<ol>
+    <a href="Case.html">Trang chủ</a>
+</ol>
+<ol>
+    <a href="case_gioithieu.html">Giới thiệu</a>
+</ol>
+<ol>
+    <a href="Cskh.html">Hỗ trợ khách hàng</a>
+</ol>
+<ol>
+    <input type="text" name="text" class="input" id="search" placeholder="    T ì m   k i ế m"
+           oninput="searchProduct()"></ol>
+<ol>
+    <button id="searchbutton">Tìm kiếm</button>
+</ol>
+<ol>
+    <button onclick="showAdd()" id="addbutton">+ Thêm và sửa sản phẩm</button>
+</ol>
+<ol>
+    <button id="login" onclick="login()">Đăng Nhập</button>
+</ol>
+<ol>
+    <button id="register" onclick="regester()">Đăng ký</button>
+</ol>
+<ol>
+    <button id="buy" onclick="buy();">Giỏ hàng</button>
+</ol>
+<div class="sum" id="showbuy" style="display: none;position: absolute">
+
+    <div id="mua"></div>
+</div>
+<ol>
+    <button id="logout" onclick="logout()">Đăng xuất </button>
+</ol>
+
+<table style="margin-left: 200px ">
+    <tr>
+        <td>
+            <h2>Thương hiệu nổi tiếng</h2>
+        </td>
+    </tr>
+    <tr>
+        <div>
+            <td><img src="159133030_1044233219399119_4321418372070751780_n.png" height="100" width="150"/></td>
+        </div>
+        <td><img src="Hang-nuoc-hoa-Zoologist.png" height="120" width="150"/></td>
+        <td><img src="nuoc-hoa-by-kilian.png" height="100" width="150"/></td>
+        <td><img src="nuoc-hoa-dior.png" height="115" width="150"/></td>
+        <td><img src="nuoc-hoa-le-labo.png" height="20" width="100"/></td>
+    </tr>
+    <tr>
+        <td><img src="Hang-nuoc-hoa-Maison-Matine.png" height="120" width="130"/></td>
+        <td><img src="Nasomatto.png" height="125" width="150"/></td>
+        <td><img src="nuoc-hoa-tomford.png" height="80" width="150"/></td>
+        <td><img src="nuoc-hoa-ysl.png" height="130" width="150"/></td>
+        <td><img src="Orto-Parisi.png" height="150" width="150"/></td>
+    </tr>
+    <tr>
+        <th><h2>Sản phẩm nổi bật</h2></th>
+    </tr>
+</table>
+<p id="product"></p>
+<table style="display: none" id="showadd">
+    <tr>
+        <td>
+            <input id="img" placeholder="Hãy nhập link ảnh">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input id="name" placeholder="Hãy nhập tên sản phẩm">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input id="companyname" placeholder="Hãy nhập tên hãng">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input id="price" placeholder="Hãy nhập giá sản phẩm">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="addProduct()">Thêm sản phẩm</button>
+            <button onclick="editProduct2()">Sửa sản phẩm</button>
+        </td>
+    </tr>
+</table>
+<footer>
+    <h3>Codegym store</h3>
+    <p>Số 23 lô TT-01 Hàm Nghi - Hà Nội</p>
+    <p>Codegym 2023 | all right reserved</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,98 @@
+
+ol {
+    float: left;
+    list-style: none;
+
+}
+
+td {
+    padding: 40px;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+#addbutton {
+    width: 170px;
+    height: 40px;
+    background-color: lawngreen;
+    margin-left: 150px;
+    border-radius: 25px
+}
+div {
+    border: 1px solid #aaaabb;
+    border-radius: 20px;
+    font-family: "Monaco",cursive;
+}
+#search{
+    width: 300px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#searchbutton{
+    width: 100px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#background{
+    background-image: url("302491693_626548162206033_4072354827524788421_n.jpg");
+    width: 1500px;
+    height: 200px;
+    color: #e0e0e0;
+    padding-top:100px ;
+}
+#login{
+    width: 100px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+#logout {
+    width: 100px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+#register {
+    width: 100px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+#buy {
+    width: 100px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+#buyproduct{
+    width: 350px;
+    height: 500px;
+    border: 1px solid #0810bb;
+    border-radius: 20px;
+}
+#mua{
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    background-color: rgb(220, 209, 209);
+    border:0px solid #aaaabb;
+    overflow: auto;
+    margin-left: 1300px;
+    margin-top: 350px;
+}
+footer {
+    width: 1500px;
+    height: 250px;
+    background: #757272;
+    color: #ffffff
+;
+    font-size: x-large;
+    text-align: center;
+    padding-top:80px ;
+    font-family: "Monaco",cursive;
+    opacity: 80%;
+}
