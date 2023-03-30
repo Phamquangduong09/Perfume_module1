@@ -104,8 +104,8 @@ function editProduct(index) {
 
 function editProduct2() {
     arrProduct[demo].img = document.getElementById("img").value
-    arrProduct[demo].name = document.getElementById("name").value
     arrProduct[demo].companyName = document.getElementById("companyname").value
+    arrProduct[demo].name = document.getElementById("name").value
     arrProduct[demo].price = document.getElementById("price").value
     product();
 }
